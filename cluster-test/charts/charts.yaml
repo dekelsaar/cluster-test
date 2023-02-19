@@ -1,0 +1,7 @@
+apiVersion: v1
+name: rancher-test-cluster-template
+description: RKE2 Cluster template for TEST
+version: 0.3.1
+annotations:
+  catalog.cattle.io/type: cluster-template
+  catalog.cattle.io/namespace: fleet-default
